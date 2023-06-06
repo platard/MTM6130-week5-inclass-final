@@ -1,0 +1,25 @@
+
+/* Exercise 1 (Descendant Selector) */
+div span {
+    color: red;
+}
+
+/* Exercise 2 (Child Selector) */
+ul > li {
+    font-weight: bold;
+}
+
+/* Exercise 3 (Adjacent Sibling Selector) */
+h2 + p {
+    background-color: lightgray;
+}
+
+/* Exercise 4 (General Sibling Selector) */
+h2 ~ p {
+    font-style: italic;
+}
+
+/* Exercise 5 (Combined Selectors) */
+div.container a {
+    text-decoration: none;
+}

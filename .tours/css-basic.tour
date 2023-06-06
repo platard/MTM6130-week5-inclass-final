@@ -1,0 +1,75 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "CSS basic",
+  "steps": [
+    {
+      "file": "css-basic/style.css",
+      "description": "# CSS\r\n## Tag name selector\r\n\r\n1. Create a CSS rule that targets all `<p>` elements and sets their font size to 21 pixels",
+      "selection": {
+        "start": {
+          "line": 2,
+          "character": 1
+        },
+        "end": {
+          "line": 2,
+          "character": 21
+        }
+      }
+    },
+    {
+      "file": "css-basic/style.css",
+      "description": "## ID selector\r\n\r\n2. Create a CSS rule that targets the element with the ID \"header\" and sets its background color to light blue.\r\n> background-color: lightblue;",
+      "line": 7
+    },
+    {
+      "file": "css-basic/style.css",
+      "description": "## Class selector\r\n3. Create a CSS rule that targets all elements with the class \"box\" and sets their text color to red.\r\n> color: red;",
+      "line": 12
+    },
+    {
+      "file": "css-basic/style.css",
+      "description": "# Combinators\r\n## Tag name selector\r\n4. Create a CSS rule that targets the `<ul>` element inside an element with the ID \"container\" and sets its list-style-type to square.\r\n> list-style-type: square;",
+      "line": 17
+    },
+    {
+      "file": "css-basic/style.css",
+      "description": "## Tag name and Class selector\r\n5. Create a CSS rule that targets all elements with the class \"highlight\" inside a `<section>` element and sets their background color to yellow.",
+      "line": 22
+    },
+    {
+      "file": "css-combinators/style.css",
+      "description": "# - Combinators\r\n## Descendant Selector\r\n\r\n1. Create a CSS rule that targets all `<span>` elements that are descendants of `<div>` elements and sets their text color to red.",
+      "line": 2
+    },
+    {
+      "file": "css-combinators/style.css",
+      "description": "## Child selector\r\n\r\n2. Create a CSS rule that targets all `<li>` elements that are direct children of `<ul>` elements and sets their font weight to bold.\r\n> font-weight: bold;",
+      "line": 7
+    },
+    {
+      "file": "css-combinators/style.css",
+      "description": "## Adjacent selector\r\n3. Create a CSS rule that targets the `<p>` element immediately following an `<h2>` element and sets its background color to light gray.\r\n\r\n> background-color: lightgray;",
+      "line": 12
+    },
+    {
+      "file": "css-combinators/style.css",
+      "description": "## Sibling selector\r\n4. Create a CSS rule that targets all `<p>` elements that follow an `<h2>` element and sets their font style to italic.\r\n\r\n> font-style: italic;",
+      "line": 17
+    },
+    {
+      "file": "css-combinators/style.css",
+      "description": "## Combined selectors\r\n5. Create a CSS rule that targets all `<a>` elements that are descendants of `<div>` elements with the class \"container\" and sets their text-decoration to none.\r\n> text-decoration: none;",
+      "line": 22
+    },
+    {
+      "file": "css-specificity/style.css",
+      "description": "## - Specificity\r\nCreate three paragraphs (`<p>` elements) inside a `<div>` container. Apply different background colors to each paragraph using inline styles, ID selectors, and class selectors. Observe how the different levels of specificity affect the final styling.",
+      "line": 1
+    },
+    {
+      "file": "css-specificity/style.css",
+      "description": "### Define a higher specificity for each exercise.",
+      "line": 9
+    }
+  ]
+}

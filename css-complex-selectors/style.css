@@ -1,0 +1,24 @@
+ /* Exercise 1: Target links */
+  a:link {
+    color: blue;
+  }
+  
+  /* Exercise 2: Style required form fields */
+  input[required] {
+    border: 3px solid red;
+  }
+  
+  /* Exercise 3: Style required and valid form fields */
+  input[required]:valid {
+    background-color: rgb(182, 255, 185);
+  }
+  
+  /* Exercise 4: Apply hover effect to buttons */
+  button:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Exercise 5: Select odd table rows */
+  tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
